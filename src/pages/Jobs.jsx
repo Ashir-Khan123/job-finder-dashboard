@@ -1,7 +1,10 @@
+import AppNavbar from "../components/Navbar.jsx"
+
 function JobsPage(){
     return(
         <div>
-            This is Jobs page
+            <AppNavbar/>
+            This is job page 
         </div>
     )
 }
