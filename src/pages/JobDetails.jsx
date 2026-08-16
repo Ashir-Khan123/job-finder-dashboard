@@ -1,4 +1,4 @@
-function JobsDetailsPage(){
+function JobDetailsPage(){
     return(
         <div>
             This is Jobs details page
@@ -6,4 +6,4 @@ function JobsDetailsPage(){
     )
 }
 
-export default JobsDetailsPage
+export default JobDetailsPage

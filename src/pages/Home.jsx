@@ -1,7 +1,9 @@
+import AppNavbar from "../components/Navbar.jsx"
+
 function HomePage(){
     return(
         <div>
-            This is Home page
+            <AppNavbar/>
         </div>
     )
 }
