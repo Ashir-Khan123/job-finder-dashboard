@@ -1,7 +1,17 @@
 function SearchBar(){
     return(
         <div>
-            This is navbar
+            <div>
+                <div>
+                    
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
         </div>
     )
 }
