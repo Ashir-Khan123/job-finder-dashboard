@@ -2,21 +2,22 @@ import { useState } from "react";
 import { LuMenu, LuX } from "react-icons/lu";
 import { SiWebmoney } from "react-icons/si";
 import { NavLink } from "react-router-dom";
+import AppButton from "./Button.jsx";
 
 function AppNavbar() {
   const [menu, setMenu] = useState(false);
   return (
     <div>
-      <header>
-        <nav className="flex items-center justify-between p-4 md:px-12 relative shadow-xl">
+      <header className="fixed top-0 w-full z-50">
+        <nav className="flex items-center justify-between p-3 md:px-12 relative shadow-xl bg-white">
         <div className="flex items-center gap-1 text-2xl font-semibold">
           <SiWebmoney />
           <span className="font-bold">
-            Job<span className="text-cyan-500">Finder</span>
+            Job<span className="text-cyan-600">Finder</span>
           </span>
         </div>
         <ul
-          className={`absolute top-full left-0 w-full bg-gray-200 flex-col items-start justify-center gap-4 p-2 font-bold md:static  md:bg-transparent md:w-auto md:whitespace-nowrap md:gap-12 md:flex md:flex-row md:items-center text-md cursor-pointer ${
+          className={`absolute top-full left-0 w-full bg-gray-200 flex-col items-start justify-center gap-4 p-2 font-semibold md:static  md:bg-transparent md:w-auto md:whitespace-nowrap md:gap-12 md:flex md:flex-row md:items-center text-md cursor-pointer ${
             menu ? `flex` : `hidden`
           }`}
         >
@@ -24,20 +25,17 @@ function AppNavbar() {
             <NavLink to={"/"} className={({isActive}) => isActive ? "text-cyan-500" : ""}>Home</NavLink>
           </li>
           <li>
-            <NavLink to={"/jobs"} className={({isActive}) =>  isActive ? "text-cyan-500" : "" }>Jobs</NavLink>
+            <NavLink to={"/jobs"} className={({isActive}) =>  isActive ? "text-cyan-600" : "" }>Jobs</NavLink>
           </li>
           <li>
-            <NavLink to={"/saved-jobs"} className={({isActive}) => isActive ? "text-cyan-500" : ""}>Saved Jobs</NavLink>
+            <NavLink to={"/saved-jobs"} className={({isActive}) => isActive ? "text-cyan-600" : ""}>Saved Jobs</NavLink>
           </li>
         </ul>
         <div>
-          <div className="hidden md:block bg-cyan-500 text-white rounded-sm hover:border-cyan-500 hover:bg-transparent hover:text-cyan-500">
-            <NavLink
-              to="/jobs"
-              className="inline-block py-1.5 px-2.5 cursor-pointer font-bold"
-            >
-              Browse Jobs
-            </NavLink>
+          <div className="hidden md:block bg-cyan-600 text-white rounded-sm hover:border-cyan-600 hover:bg-transparent hover:text-cyan-500 text-sm">
+            <AppButton to="/jobs">
+                Browse Jobs
+            </AppButton>
           </div>
           <div
             className="cursor-pointer md:hidden"
