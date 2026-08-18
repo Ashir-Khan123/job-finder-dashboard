@@ -8,7 +8,7 @@ function AppNavbar() {
   const [menu, setMenu] = useState(false);
   return (
     <div>
-      <header className="fixed top-0 w-full z-50">
+      <header className="fixed top-0 w-full z-50 left-0">
         <nav className="flex items-center justify-between p-3 md:px-12 relative shadow-xl bg-white">
         <div className="flex items-center gap-1 text-2xl font-semibold">
           <SiWebmoney />

@@ -2,7 +2,7 @@ import { GoSearch } from "react-icons/go";
 import AppButton from "./Button";
 import { CiLocationOn } from "react-icons/ci";
 
-function SearchBar() {
+function SearchBar({showJobType}) {  
   return (
     <div className="md:w-2xl lg:w-3xl mx-auto bg-transparent md:shadow-md md:shadow-gray-400 md:p-2 md:rounded-lg">
       <div className="flex justify-center flex-col px-3 gap-4 md:flex-row md:w-full md:px-2 md:gap-1">

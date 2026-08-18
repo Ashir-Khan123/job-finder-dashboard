@@ -1,41 +1,41 @@
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import { SiWebmoney } from "react-icons/si";
+import { Link } from "react-router-dom";
+
 function AppFooter() {
   return (
-    <footer class="bg-cyan-950 text-white px-6 md:px-10 lg:px-16 pt-8">
+    <footer class="bg-cyan-950 text-white px-6 md:px-10 lg:px-12 pt-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
         <div class="flex flex-col items-center lg:items-start">
           <div class="flex items-center justify-center md:justify-start gap-2 text-2xl font-semibold mb-5">
-            <i class="fa-solid fa-square-h text-[#0ea5e9]"></i>
-            <span>JobFinder</span>
+            <SiWebmoney />
+            <span>Job<span className="text-cyan-600">Finder</span></span>
           </div>
           <p class="text-gray-300 text-sm leading-7 text-center lg:text-left">
             Connecting talent with opportunity. Your dream job is just a search
             away.
           </p>
           <div class="flex justify-center md:justify-start gap-2 mt-6">
-            <a
-              href="#"
-              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#0ea5e9] transition-all duration-300"
+            <Link
+              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-cyan-600 transition-all duration-300"
             >
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a
-              href="#"
-              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#0ea5e9] transition-all duration-300"
+              <FaLinkedinIn/>
+            </Link>
+            <Link
+              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-cyan-600 transition-all duration-300"
             >
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a
-              href="#"
-              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#0ea5e9] transition-all duration-300"
+             <FaFacebookF/>
+            </Link>
+            <Link
+              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-cyan-600 transition-all duration-300"
             >
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a
-              href="#"
-              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#0ea5e9] transition-all duration-300"
+              <FaXTwitter/>
+            </Link>
+            <Link
+              class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-cyan-600 transition-all duration-300"
             >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
+              <FaInstagram />
+            </Link>
           </div>
         </div>
         <div class="text-center lg:text-left lg:ml-6">
@@ -121,16 +121,16 @@ function AppFooter() {
           <input
             type="email"
             placeholder="Enter your email"
-            class="w-full border border-gray-500 rounded-md px-4 py-3 bg-transparent outline-none text-sm placeholder:text-gray-500 focus:border-[#0ea5e9]"
+            class="w-full border border-gray-500 rounded-md px-4 py-3 bg-transparent outline-none text-sm placeholder:text-gray-500 focus:border-cyan-600"
           />
-          <button class="w-full mt-3 bg-[#0ea5e9] py-3 rounded-md font-medium cursor-pointer hover:bg-sky-600 transition-all duration-300">
+          <button class="w-full mt-3 bg-cyan-600 py-3 rounded-md font-medium cursor-pointer hover:bg-cyan-700 transition-all duration-300">
             Subscribe
           </button>
         </div>
       </div>
-      <div class="border-t border-white/10 mt-10 py-6 text-center">
-        <p class="text-sm text-gray-400">
-          © 2026 HireFlow. All rights reserved.
+      <div class="border-t border-white/20 mt-7 py-4 text-center">
+        <p class="text-sm text-gray-300">
+          © 2026 JobFinder. All rights reserved.
         </p>
       </div>
     </footer>

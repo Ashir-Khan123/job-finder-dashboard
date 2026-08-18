@@ -1,10 +1,28 @@
+import AppFooter from "../components/Footer.jsx"
+import JobCard from "../components/JobCard.jsx"
 import AppNavbar from "../components/Navbar.jsx"
+import SearchBar from "../components/SearchBar.jsx"
+import { jobs } from "../data/jobs.js"
 
 function JobsPage(){
     return(
         <div>
             <AppNavbar/>
-            This is job page 
+            <main>
+                <section className="mt-24 py-12">
+                    <SearchBar showJobType={true} />
+                </section>
+                <section className="px-5 py-11">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-8">
+                        {
+                            jobs.slice(0 , 9).map((job) => (
+                                <JobCard key={job.id} job={job} />
+                            ))
+                        }
+                    </div>
+                </section>
+            </main>
+            <AppFooter/>
         </div>
     )
 }
