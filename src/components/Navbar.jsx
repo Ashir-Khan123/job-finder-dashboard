@@ -22,13 +22,18 @@ function AppNavbar() {
           }`}
         >
           <li>
-            <NavLink to={"/"} className={({isActive}) => isActive ? "text-cyan-500" : ""}>Home</NavLink>
+            <NavLink to={"/"} className={({isActive}) => 
+            isActive ? 
+            "text-cyan-500 border-b-2 pb-5 border-cyan-500"  
+            : ""
+
+          }>Home</NavLink>
           </li>
           <li>
-            <NavLink to={"/jobs"} className={({isActive}) =>  isActive ? "text-cyan-600" : "" }>Jobs</NavLink>
+            <NavLink to={"/jobs"} className={({isActive}) =>  isActive ? "text-cyan-500 border-b-2 pb-5 border-cyan-500" : "" }>Jobs</NavLink>
           </li>
           <li>
-            <NavLink to={"/saved-jobs"} className={({isActive}) => isActive ? "text-cyan-600" : ""}>Saved Jobs</NavLink>
+            <NavLink to={"/saved-jobs"} className={({isActive}) => isActive ? "text-cyan-500 border-b-2 pb-5 border-cyan-500" : ""}>Saved Jobs</NavLink>
           </li>
         </ul>
         <div>

@@ -4,7 +4,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 function SearchBar() {
   return (
-    <div className="md:w-2xl lg:w-3xl md:mx-auto bg-transparent md:shadow-md md:shadow-gray-400 md:p-2 md:rounded-lg">
+    <div className="md:w-2xl lg:w-3xl mx-auto bg-transparent md:shadow-md md:shadow-gray-400 md:p-2 md:rounded-lg">
       <div className="flex justify-center flex-col px-3 gap-4 md:flex-row md:w-full md:px-2 md:gap-1">
         <div className="flex items-center font-semibold rounded-sm gap-2 md:flex-1 border-2 border-gray-300 md:border-none">
           <GoSearch className="ml-5 md:ml-2 text-lg md:text-xl"/>
