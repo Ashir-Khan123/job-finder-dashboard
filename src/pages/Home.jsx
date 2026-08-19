@@ -12,7 +12,6 @@ function HomePage() {
   return (
     <>
       <AppNavbar />
-
       <main>
         <section className="mt-24 md:my-28">
           <div className="flex flex-col md:items-center gap-5 md:gap-6 px-2 ">

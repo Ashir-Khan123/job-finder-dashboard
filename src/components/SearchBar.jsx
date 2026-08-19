@@ -5,7 +5,7 @@ import AppDropDown from "./Dropdown";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { useState } from "react";
 
-function SearchBar({ showJobType , onSearch }) {
+function SearchBar({ showJobType , onSearch , onJobTypeChange }) {
   const [searchValue , setSearchValue] = useState("")
   return (
     <div className="mx-auto md:w-2xl lg:w-3xl bg-transparent md:shadow-md md:shadow-gray-400 md:p-2 md:rounded-lg">
@@ -18,16 +18,15 @@ function SearchBar({ showJobType , onSearch }) {
           <GoSearch className="ml-5 md:ml-2 text-lg md:text-xl" />
           <input
             type="text"
-            placeholder={`${
-              showJobType ? "Enter your Job title" : "Job title , keyword or company"
-            }`}
+            placeholder="Enter Job title"
+            value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
             className="py-3 w-full border-none outline-none text-sm"
           />
         </div>
         {showJobType && (
          <div className="flex items-center border-2 border-gray-200 rounded-sm text-sm font-medium cursor-pointer">
-          <AppDropDown/>
+          <AppDropDown onSelection={onJobTypeChange} />
          </div>
         )}
         <span className={`${
@@ -45,9 +44,9 @@ function SearchBar({ showJobType , onSearch }) {
             className="py-3 w-full border-none outline-none text-sm"
           />
         </div>
-        <div className="bg-cyan-600 text-gray-100 py-1 md:py-2 rounded-sm text-center cursor-pointer md:flex md:items-center" onClick={() => onSearch(searchValue)}>
+        <div className="bg-cyan-600 text-gray-100 py-1 md:py-2 rounded-sm text-center cursor-pointer md:flex md:items-center">
           <GoSearch />
-          <AppButton to="/jobs" className="bg-green-300">Search Job</AppButton>
+          <AppButton to={`/jobs?search=${searchValue}`} className="bg-green-300" onClick={() => (onSearch(searchValue), setSearchValue(""))}>Search Job</AppButton>
         </div>
       </div>
     </div>

@@ -15,15 +15,24 @@ const items = [
     key: "3",
     label: "Contract",
   },
+  {
+    key: "4",
+    label: "Internship",
+  },
 ];
-const AppDropDown = () => {
+const AppDropDown = ({onSelection}) => {
   const [jobType, setJobType] = useState("Job type");
   return (
     <Dropdown
       menu={{
         items,
         selectable: true,
-        onClick: ({ itemData }) => setJobType(itemData.label),
+        onClick: ({ itemData }) => {
+          setJobType(itemData.label),
+          onSelection(itemData.label)
+        }
+
+         
       }}
     >
       <Space className="text-gray-500 py-3 px-2 whitespace-nowrap">

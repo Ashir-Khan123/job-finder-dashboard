@@ -3,6 +3,7 @@ import AppNavbar from "../components/Navbar.jsx"
 
 function JobDetailsPage(){
     const {id} = useParams()
+    // console.log(id);
     return(
         <>
             {/* <AppNavbar/> */}
