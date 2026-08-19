@@ -37,7 +37,7 @@ function AppNavbar() {
           </li>
         </ul>
         <div>
-          <div className="hidden md:block bg-cyan-600 text-white rounded-sm hover:border-cyan-600 hover:bg-transparent hover:text-cyan-500 text-sm">
+          <div className="hidden md:block bg-cyan-600 py-2 text-white rounded-sm hover:border-cyan-600 hover:bg-transparent hover:text-cyan-500 text-sm">
             <AppButton to="/jobs">
                 Browse Jobs
             </AppButton>

@@ -5,7 +5,7 @@ function AppButton({children , to}){
         <div>
             <NavLink
               to={to}
-              className="inline-block py-2 px-2.5 cursor-pointer font-semibold text-sm"
+              className="py-2 px-2 cursor-pointer font-semibold text-sm whitespace-nowrap"
             >
               {children}
             </NavLink>

@@ -7,7 +7,7 @@ function JobCard({ job }) {
   return (
     <div className="flex flex-col gap-4 lg:gap-5 shadow-xl p-3 md:p-3 xl:p-6 bg-white">
       <div className="flex items-center justify-between">
-        <h3 className="text-xl font-semibold">{job.title}</h3>
+        <h3 className="text-lg font-semibold text-gray-600">{job.title}</h3>
         <button className="bg-gray-100 shadow-md p-2 cursor-pointer rounded-sm">
           <FiBookmark/>
         </button>
