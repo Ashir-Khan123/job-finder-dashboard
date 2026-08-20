@@ -7,9 +7,15 @@ import { GrSend } from "react-icons/gr";
 import AppAccordion from "../components/Accordion.jsx";
 import AppFooter from "../components/Footer.jsx";
 import { jobs } from "../data/jobs.js";
+import JobCardTwo from "../components/JobCardTwo.jsx";
+import { isJobSaved, saveJob, removeSavedJob } from "../utils/savedJobs.js";
+import { useState } from "react";
 
 function JobDetailsPage() {
   const { id } = useParams();
+  const jobId = Number(id);
+
+  const [saved, setSaved] = useState(isJobSaved(jobId));
 
   const job = jobs.find((job) => job.id === Number(id));
 
@@ -27,7 +33,20 @@ function JobDetailsPage() {
               <div className="flex justify-center  items-center gap-3 ">
                 <div className="flex items-center py-1.5 px-2 bg-gray-200 rounded-sm">
                   <FiBookmark />
-                  <AppButton>Save</AppButton>
+                  <button
+                    onClick={() => {
+                      if (saved) {
+                        removeSavedJob(jobId);
+                        setSaved(false);
+                      } else {
+                        saveJob(jobId);
+                        setSaved(true);
+                      }
+                    }}
+                    className="px-2 font-semibold text-sm"
+                  >
+                    {saved ? "Saved" : "Save Job"}
+                  </button>
                 </div>
                 <div className="flex items-center py-1.5 px-2 bg-cyan-600 text-white rounded-sm">
                   <GrSend />
@@ -37,7 +56,7 @@ function JobDetailsPage() {
             </div>
           </div>
 
-          <jobCardTwo/>
+          <JobCardTwo job={job} />
 
           <div className="flex flex-col md:flex-row py-5 gap-5 ">
             <div className="rounded-lg shadow-lg w-full md:max-w-[70%] border-2 border-gray-100">
@@ -88,5 +107,6 @@ function JobDetailsPage() {
     </>
   );
 }
+
 
 export default JobDetailsPage;

@@ -1,12 +1,24 @@
-function jobCardTwo(){
+function JobCardTwo({job , deleteBtn}){
+    
     return(
         <>
         <div className="flex flex-col gap-4 rounded-sm p-7 shadow-md border-2 border-gray-100">
             <div className="flex flex-col md:flex-row justify-between">
               <h2 className="text-2xl font-bold text-gray-800">{job.title}</h2>
-              <h5 className="flex items-center text-xs rounded-xl font-semibold text-cyan-700 bg-cyan-100 w-fit p-1 px-4">
+              {
+                deleteBtn
+                ?
+                <button
+                onClick={() => deleteBtn(job.id)}
+                className="text-sm cursor-pointer font-semibold text-red-500 hover:text-red-700"
+              >
+                Remove
+              </button>
+              :
+              <h5 className="flex items-center cursor-pointer text-xs rounded-xl font-semibold text-cyan-700 bg-cyan-100 w-fit p-1 px-4">
                 {job.jobType}
               </h5>
+              }
             </div>
             <p className="text-md font-semibold text-gray-600">{job.company}</p>
             <div className="flex flex-col md:flex-row gap-3 md:gap-5 text-xs font-semibold text-gray-600">
@@ -26,4 +38,4 @@ function jobCardTwo(){
     )
 }
 
-export default jobCardTwo
+export default JobCardTwo

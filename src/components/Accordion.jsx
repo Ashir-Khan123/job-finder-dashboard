@@ -41,8 +41,7 @@ const items = [
   const onChange = key => {
     console.log(key);
   };
-  console.log('jobs data : ' , job);
-
+  
   return <Collapse items={items} defaultActiveKey={['1']} onChange={onChange} />;
 
 };
