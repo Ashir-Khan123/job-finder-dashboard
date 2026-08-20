@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
-import { Dropdown, Space, Typography } from "antd";
+import { Dropdown, Space } from "antd";
 
 const items = [
   {
