@@ -9,7 +9,7 @@ function AppNavbar() {
   return (
     <div>
       <header className="fixed top-0 w-full z-50 left-0">
-        <nav className="flex items-center justify-between p-3 md:px-12 relative shadow-xl bg-white">
+        <nav className="flex items-center justify-between p-3 md:px-12 relative shadow-lg bg-white">
         <div className="flex items-center gap-1 text-2xl font-semibold">
           <SiWebmoney />
           <span className="font-bold">
@@ -17,27 +17,27 @@ function AppNavbar() {
           </span>
         </div>
         <ul
-          className={`absolute top-full left-0 w-full bg-gray-200 flex-col items-start justify-center gap-4 p-2 font-semibold md:static  md:bg-transparent md:w-auto md:whitespace-nowrap md:gap-12 md:flex md:flex-row md:items-center text-md cursor-pointer ${
+          className={`absolute top-full left-0 w-full bg-gray-50 flex-col items-start justify-center gap-8 p-5 text-lg py-8 md:p-2 font-semibold md:static  md:bg-transparent md:w-auto md:whitespace-nowrap md:gap-12 md:flex md:flex-row md:items-center text-md cursor-pointer ${
             menu ? `flex` : `hidden`
           }`}
         >
           <li>
             <NavLink to={"/"} className={({isActive}) => 
-            isActive ? 
+            isActive && !menu ? 
             "text-cyan-500 border-b-2 pb-5 border-cyan-500"  
-            : ""
+            : "hover:text-cyan-500"
 
           }>Home</NavLink>
           </li>
           <li>
-            <NavLink to={"/jobs"} className={({isActive}) =>  isActive ? "text-cyan-500 border-b-2 pb-5 border-cyan-500" : "" }>Jobs</NavLink>
+            <NavLink to={"/jobs"} className={({isActive}) =>  isActive && !menu ? "text-cyan-500 border-b-2 pb-5 border-cyan-500" : "hover:text-cyan-500" }>Jobs</NavLink>
           </li>
           <li>
-            <NavLink to={"/saved-jobs"} className={({isActive}) => isActive ? "text-cyan-500 border-b-2 pb-5 border-cyan-500" : ""}>Saved Jobs</NavLink>
+            <NavLink to={"/saved-jobs"} className={({isActive}) => isActive && !menu ? "text-cyan-500 border-b-2 pb-5 border-cyan-500" : "hover:text-cyan-500"}>Saved Jobs</NavLink>
           </li>
         </ul>
         <div>
-          <div className="hidden md:block bg-cyan-600 py-2 text-white rounded-sm hover:border-cyan-600 hover:bg-transparent hover:text-cyan-500 text-sm">
+          <div className="hidden md:block bg-cyan-500 py-2.5 px-2 transition-all duration-300 ease-in-out hover:bg-cyan-600 hover:shadow-lg active:translate-y-0 text-white rounded-sm text-sm">
             <AppButton to="/jobs">
                 Browse Jobs
             </AppButton>

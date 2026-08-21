@@ -25,17 +25,20 @@ function SavedJobsPage() {
     <>
       <AppNavbar />
       <main>
-        <section className="mt-10 py-15 px-5">
-          <div className="flex items-center">
-            <FaArrowLeft />
-            <AppButton>Back to jobs</AppButton>
+        <section className="mt-10 py-15 md:px-10 px-5">
+          <div className="flex justify-between items-center">
+            <div className="py-3">
+              <h2 className="md:text-4xl text-2xl font-semibold ">Saved Jobs</h2>
+              <p className="font-medium pt-2 text-gray-600">
+                Jobs you've saved for later
+              </p>
+            </div>
+            <FiBookmark className="text-6xl text-gray-600 rounded-lg" />
           </div>
           <div className="flex flex-col md:flex-row py-5 gap-5">
             <div className="w-full">
-              {savedJobs.length === 0 
-              ? 
-              (
-                <div className="text-center py-20 shadow-md rounded-lg">
+              {savedJobs.length === 0 ? (
+                <div className="text-center py-20 shadow-sm rounded-lg">
                   <FiBookmark className="mx-auto text-4xl text-gray-400" />
 
                   <h2 className="text-xl font-bold mt-4">No saved jobs yet</h2>
@@ -44,9 +47,7 @@ function SavedJobsPage() {
                     Save jobs you're interested in and find them here.
                   </p>
                 </div>
-              ) 
-              : 
-              (
+              ) : (
                 <div className="flex flex-col gap-4">
                   {savedJobs.map((job) => (
                     <JobCardTwo
