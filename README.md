@@ -1,16 +1,80 @@
-# React + Vite
+# Job Finder Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive job portal built with React and Tailwind CSS. Users can browse jobs, search by job title and location, filter by job type, view detailed job information, save/remove jobs, and submit job applications.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Responsive job portal UI
+Browse available jobs
+Search jobs by title
+Search jobs by location
+Filter jobs by job type
+Job details page
+Save and remove saved jobs
+Saved Jobs page
+Apply Now interaction with success message
+No Jobs Found state for unsuccessful searches
+Job Not Found state for invalid job details
+Responsive layout for desktop, tablet, and mobile
+Reusable React components
+React Router navigation
+Local storage based saved jobs functionality
 
-## React Compiler
+# Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js
+React Router
+Tailwind CSS
+Ant Design
+React Icons
+Vite
+JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+# Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+git clone https://github.com/Ashir-Khan123/job-finder-dashboard.git
+
+2. Open the project
+
+cd <project-folder>
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+The application will be available at the local URL shown in the terminal, usually:
+
+http://localhost:5173
+
+Build for Production
+
+npm run build
+
+To preview the production build:
+
+npm run preview
+
+Project Structure
+
+src/
+├── components/
+├── data/
+├── pages/
+├── routes/
+├── utils/
+├── assets/
+└── App.jsx
+
+Notes
+
+This project currently uses local/static job data and browser local storage for saved jobs. It does not require a backend database to run.
+
+Author
+
+Ashir Khan
