@@ -7,13 +7,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["React", "JavaScript", "Tailwind CSS"],
-    description: "We are looking for a Frontend Developer to build modern, responsive, and user-friendly web applications. You will work closely with designers and developers to create scalable interfaces and improve the overall user experience.",
+    description:
+      "We are looking for a Frontend Developer to build modern, responsive, and user-friendly web applications. You will work closely with designers and developers to create scalable interfaces and improve the overall user experience.",
     requirements: [
       "Practical knowledge of React and frontend development",
       "Experience with JavaScript",
       "Ability to work with Tailwind CSS",
       "Good understanding of responsive design",
-      "Strong communication and problem-solving skills"
+      "Strong communication and problem-solving skills",
     ],
   },
   {
@@ -24,13 +25,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 25,000 - 45,000",
     skills: ["React", "JavaScript", "REST APIs"],
-    description: "We are looking for a React Developer to build modern and interactive web applications. You will develop reusable components, integrate APIs, and work with the team to deliver high-quality frontend solutions.",
+    description:
+      "We are looking for a React Developer to build modern and interactive web applications. You will develop reusable components, integrate APIs, and work with the team to deliver high-quality frontend solutions.",
     requirements: [
       "Strong understanding of React",
       "Experience with JavaScript",
       "Knowledge of REST APIs",
       "Good understanding of component-based development",
-      "Strong problem-solving skills"
+      "Strong problem-solving skills",
     ],
   },
   {
@@ -41,13 +43,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 65,000 - 85,000",
     skills: ["HTML", "CSS", "JavaScript"],
-    description: "We are looking for a Junior Frontend Developer to help create responsive and engaging web interfaces. This role provides an opportunity to work with experienced developers and strengthen practical frontend development skills.",
+    description:
+      "We are looking for a Junior Frontend Developer to help create responsive and engaging web interfaces. This role provides an opportunity to work with experienced developers and strengthen practical frontend development skills.",
     requirements: [
       "Knowledge of HTML and CSS",
       "Basic JavaScript knowledge",
       "Understanding of responsive design",
       "Basic Git knowledge",
-      "Willingness to learn and improve"
+      "Willingness to learn and improve",
     ],
   },
   {
@@ -58,13 +61,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["JavaScript", "React", "CSS"],
-    description: "We are looking for a JavaScript Developer to develop dynamic and responsive web applications. You will work with modern JavaScript technologies and collaborate with frontend and backend developers on application features.",
+    description:
+      "We are looking for a JavaScript Developer to develop dynamic and responsive web applications. You will work with modern JavaScript technologies and collaborate with frontend and backend developers on application features.",
     requirements: [
       "Strong JavaScript fundamentals",
       "Knowledge of React",
       "Good CSS skills",
       "Understanding of modern web development",
-      "Good communication skills"
+      "Good communication skills",
     ],
   },
   {
@@ -75,13 +79,14 @@ export const jobs = [
     jobType: "Contract",
     salary: "Rs. 70,000 - 90,000",
     skills: ["React", "HTML", "CSS"],
-    description: "We are looking for a UI Developer to create clean, responsive, and accessible interfaces. You will convert design concepts into reusable components while maintaining consistency across the application.",
+    description:
+      "We are looking for a UI Developer to create clean, responsive, and accessible interfaces. You will convert design concepts into reusable components while maintaining consistency across the application.",
     requirements: [
       "Knowledge of React",
       "Strong HTML and CSS skills",
       "Understanding of responsive layouts",
       "Attention to UI details",
-      "Ability to collaborate with designers"
+      "Ability to collaborate with designers",
     ],
   },
   {
@@ -92,13 +97,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 75,000 - 95,000",
     skills: ["HTML", "CSS", "JavaScript"],
-    description: "We are looking for a Web Developer to develop and maintain responsive websites and web applications. You will work on frontend functionality, performance improvements, and user-friendly interfaces.",
+    description:
+      "We are looking for a Web Developer to develop and maintain responsive websites and web applications. You will work on frontend functionality, performance improvements, and user-friendly interfaces.",
     requirements: [
       "HTML and CSS knowledge",
       "JavaScript fundamentals",
       "Responsive web development",
       "Basic Git knowledge",
-      "Strong problem-solving skills"
+      "Strong problem-solving skills",
     ],
   },
   {
@@ -109,13 +115,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["React", "TypeScript", "Tailwind CSS"],
-    description: "We are looking for a React UI Developer to build reusable and responsive interface components. You will work with designers and developers to create consistent, accessible, and high-quality user interfaces.",
+    description:
+      "We are looking for a React UI Developer to build reusable and responsive interface components. You will work with designers and developers to create consistent, accessible, and high-quality user interfaces.",
     requirements: [
       "Experience with React",
       "Knowledge of TypeScript",
       "Tailwind CSS experience",
       "Component-based development",
-      "Good understanding of UI principles"
+      "Good understanding of UI principles",
     ],
   },
   {
@@ -126,13 +133,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["React", "JavaScript", "Git"],
-    description: "We are looking for a Frontend Engineer to develop scalable and maintainable web applications. You will contribute to frontend architecture, reusable components, performance optimization, and product improvements.",
+    description:
+      "We are looking for a Frontend Engineer to develop scalable and maintainable web applications. You will contribute to frontend architecture, reusable components, performance optimization, and product improvements.",
     requirements: [
       "React development experience",
       "Strong JavaScript knowledge",
       "Git and version control",
       "Responsive design knowledge",
-      "Strong analytical skills"
+      "Strong analytical skills",
     ],
   },
   {
@@ -143,13 +151,14 @@ export const jobs = [
     jobType: "Internship",
     salary: "Rs. 65,000 - 85,000",
     skills: ["React", "JavaScript", "Redux"],
-    description: "We are looking for a Junior React Developer to support the development of modern web applications. You will work with senior developers and gain practical experience in React, state management, and frontend workflows.",
+    description:
+      "We are looking for a Junior React Developer to support the development of modern web applications. You will work with senior developers and gain practical experience in React, state management, and frontend workflows.",
     requirements: [
       "Basic React knowledge",
       "JavaScript fundamentals",
       "Understanding of Redux",
       "Basic Git knowledge",
-      "Strong learning attitude"
+      "Strong learning attitude",
     ],
   },
   {
@@ -160,13 +169,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 75,000 - 95,000",
     skills: ["JavaScript", "Git", "REST APIs"],
-    description: "We are looking for a Software Engineer to design, develop, and maintain reliable software solutions. You will collaborate with engineering teams to implement features, fix issues, and improve application performance.",
+    description:
+      "We are looking for a Software Engineer to design, develop, and maintain reliable software solutions. You will collaborate with engineering teams to implement features, fix issues, and improve application performance.",
     requirements: [
       "Strong programming fundamentals",
       "Knowledge of Git",
       "REST API understanding",
       "Problem-solving skills",
-      "Team collaboration"
+      "Team collaboration",
     ],
   },
   {
@@ -177,13 +187,14 @@ export const jobs = [
     jobType: "Internship",
     salary: "Rs. 80,000 - 95,000",
     skills: ["Node.js", "Express", "MongoDB"],
-    description: "We are looking for a Backend Developer to build reliable APIs and scalable server-side applications. You will work with databases, authentication, integrations, and frontend teams to deliver secure web solutions.",
+    description:
+      "We are looking for a Backend Developer to build reliable APIs and scalable server-side applications. You will work with databases, authentication, integrations, and frontend teams to deliver secure web solutions.",
     requirements: [
       "Node.js knowledge",
       "Express.js experience",
       "MongoDB knowledge",
       "REST API development",
-      "Problem-solving skills"
+      "Problem-solving skills",
     ],
   },
   {
@@ -194,13 +205,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["Node.js", "Express", "REST APIs"],
-    description: "We are looking for a Node.js Developer to build secure and scalable backend applications. You will develop APIs, integrate databases, and collaborate with frontend developers to deliver complete web solutions.",
+    description:
+      "We are looking for a Node.js Developer to build secure and scalable backend applications. You will develop APIs, integrate databases, and collaborate with frontend developers to deliver complete web solutions.",
     requirements: [
       "Node.js development",
       "Express.js knowledge",
       "REST API experience",
       "Database fundamentals",
-      "Good coding practices"
+      "Good coding practices",
     ],
   },
   {
@@ -211,13 +223,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 75,000 - 95,000",
     skills: ["Node.js", "MongoDB", "JavaScript"],
-    description: "We are looking for a Junior Backend Developer to support API and server-side development. You will work with databases, backend services, and experienced engineers while improving your development skills.",
+    description:
+      "We are looking for a Junior Backend Developer to support API and server-side development. You will work with databases, backend services, and experienced engineers while improving your development skills.",
     requirements: [
       "Node.js fundamentals",
       "MongoDB knowledge",
       "JavaScript knowledge",
       "API fundamentals",
-      "Willingness to learn"
+      "Willingness to learn",
     ],
   },
   {
@@ -228,13 +241,14 @@ export const jobs = [
     jobType: "Internship",
     salary: "Rs. 80,000 - 95,000",
     skills: ["Express.js", "Node.js", "MongoDB"],
-    description: "We are looking for an Express.js Developer to develop RESTful APIs and backend services. You will work on authentication, database integration, error handling, and scalable server-side features.",
+    description:
+      "We are looking for an Express.js Developer to develop RESTful APIs and backend services. You will work on authentication, database integration, error handling, and scalable server-side features.",
     requirements: [
       "Express.js experience",
       "Node.js knowledge",
       "MongoDB experience",
       "REST API development",
-      "Good debugging skills"
+      "Good debugging skills",
     ],
   },
   {
@@ -245,13 +259,14 @@ export const jobs = [
     jobType: "Contract",
     salary: "Rs. 70,000 - 90,000",
     skills: ["Python", "Django", "PostgreSQL"],
-    description: "We are looking for a Python Backend Developer to develop robust backend services and APIs. You will work with Django, databases, authentication, and integrations to build reliable applications.",
+    description:
+      "We are looking for a Python Backend Developer to develop robust backend services and APIs. You will work with Django, databases, authentication, and integrations to build reliable applications.",
     requirements: [
       "Python programming",
       "Django knowledge",
       "PostgreSQL experience",
       "API development",
-      "Problem-solving skills"
+      "Problem-solving skills",
     ],
   },
   {
@@ -262,13 +277,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 75,000 - 95,000",
     skills: ["Node.js", "REST APIs", "Postman"],
-    description: "We are looking for an API Developer to design, develop, test, and maintain APIs. You will work closely with frontend and backend teams to ensure reliable communication between application services.",
+    description:
+      "We are looking for an API Developer to design, develop, test, and maintain APIs. You will work closely with frontend and backend teams to ensure reliable communication between application services.",
     requirements: [
       "REST API knowledge",
       "Node.js experience",
       "Postman experience",
       "API testing knowledge",
-      "Good communication"
+      "Good communication",
     ],
   },
   {
@@ -279,13 +295,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["Java", "Spring Boot", "SQL"],
-    description: "We are looking for a Junior Software Engineer to work with senior engineers on enterprise applications. You will develop features, troubleshoot issues, and gain practical experience with software engineering practices.",
+    description:
+      "We are looking for a Junior Software Engineer to work with senior engineers on enterprise applications. You will develop features, troubleshoot issues, and gain practical experience with software engineering practices.",
     requirements: [
       "Programming fundamentals",
       "Java knowledge",
       "SQL understanding",
       "Problem-solving skills",
-      "Team collaboration"
+      "Team collaboration",
     ],
   },
   {
@@ -296,13 +313,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["MongoDB", "Express", "React"],
-    description: "We are looking for a MERN Stack Developer to build complete web applications using modern JavaScript technologies. You will work across frontend and backend systems, integrate APIs, and manage databases.",
+    description:
+      "We are looking for a MERN Stack Developer to build complete web applications using modern JavaScript technologies. You will work across frontend and backend systems, integrate APIs, and manage databases.",
     requirements: [
       "MongoDB knowledge",
       "Express.js experience",
       "React development",
       "Node.js fundamentals",
-      "REST API knowledge"
+      "REST API knowledge",
     ],
   },
   {
@@ -313,13 +331,14 @@ export const jobs = [
     jobType: "Internship",
     salary: "Rs. 75,000 - 95,000",
     skills: ["MongoDB", "Node.js", "React"],
-    description: "We are looking for a Junior MERN Developer to join our development team. You will work on frontend and backend features while gaining practical experience with MongoDB, Express, React, and Node.js.",
+    description:
+      "We are looking for a Junior MERN Developer to join our development team. You will work on frontend and backend features while gaining practical experience with MongoDB, Express, React, and Node.js.",
     requirements: [
       "Basic MERN knowledge",
       "MongoDB fundamentals",
       "React fundamentals",
       "Node.js basics",
-      "Strong learning attitude"
+      "Strong learning attitude",
     ],
   },
   {
@@ -330,13 +349,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["React", "Node.js", "MongoDB"],
-    description: "We are looking for a Full Stack Developer to develop complete web applications across frontend and backend layers. You will build features, integrate APIs, manage data, and help improve application performance.",
+    description:
+      "We are looking for a Full Stack Developer to develop complete web applications across frontend and backend layers. You will build features, integrate APIs, manage data, and help improve application performance.",
     requirements: [
       "React experience",
       "Node.js knowledge",
       "MongoDB experience",
       "REST APIs",
-      "Full-stack development understanding"
+      "Full-stack development understanding",
     ],
   },
   {
@@ -347,13 +367,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["React", "Node.js", "MongoDB"],
-    description: "We are looking for a JavaScript Full Stack Developer to build modern applications using JavaScript technologies. You will work on frontend interfaces, backend APIs, database integration, and application functionality.",
+    description:
+      "We are looking for a JavaScript Full Stack Developer to build modern applications using JavaScript technologies. You will work on frontend interfaces, backend APIs, database integration, and application functionality.",
     requirements: [
       "JavaScript expertise",
       "React development",
       "Node.js backend",
       "MongoDB knowledge",
-      "Git experience"
+      "Git experience",
     ],
   },
   {
@@ -364,13 +385,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 75,000 - 95,000",
     skills: ["MongoDB", "Express", "React"],
-    description: "We are looking for a MERN Stack Engineer to develop scalable applications using MongoDB, Express, React, and Node.js. You will contribute to architecture, API development, database integration, and frontend implementation.",
+    description:
+      "We are looking for a MERN Stack Engineer to develop scalable applications using MongoDB, Express, React, and Node.js. You will contribute to architecture, API development, database integration, and frontend implementation.",
     requirements: [
       "MERN stack experience",
       "MongoDB knowledge",
       "React development",
       "Express and Node.js",
-      "REST API experience"
+      "REST API experience",
     ],
   },
   {
@@ -381,13 +403,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["JavaScript", "React", "Node.js"],
-    description: "We are looking for a Junior Full Stack Developer to assist in building frontend and backend features. You will work with experienced developers and gain practical experience across the complete application stack.",
+    description:
+      "We are looking for a Junior Full Stack Developer to assist in building frontend and backend features. You will work with experienced developers and gain practical experience across the complete application stack.",
     requirements: [
       "JavaScript fundamentals",
       "React knowledge",
       "Node.js basics",
       "API understanding",
-      "Problem-solving skills"
+      "Problem-solving skills",
     ],
   },
   {
@@ -398,13 +421,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["JavaScript", "React", "Node.js"],
-    description: "We are looking for a Software Developer to develop and maintain modern software applications. You will implement new features, fix bugs, integrate APIs, and collaborate with other developers throughout the development lifecycle.",
+    description:
+      "We are looking for a Software Developer to develop and maintain modern software applications. You will implement new features, fix bugs, integrate APIs, and collaborate with other developers throughout the development lifecycle.",
     requirements: [
       "Strong programming fundamentals",
       "JavaScript knowledge",
       "React experience",
       "Node.js understanding",
-      "Good debugging skills"
+      "Good debugging skills",
     ],
   },
   {
@@ -415,13 +439,14 @@ export const jobs = [
     jobType: "Contract",
     salary: "Rs. 75,000 - 95,000",
     skills: ["React", "Node.js", "SQL"],
-    description: "We are looking for a Web Application Developer to create responsive and scalable business applications. You will work on frontend interfaces, backend services, database integration, and API communication.",
+    description:
+      "We are looking for a Web Application Developer to create responsive and scalable business applications. You will work on frontend interfaces, backend services, database integration, and API communication.",
     requirements: [
       "React development",
       "Node.js knowledge",
       "SQL understanding",
       "Responsive design",
-      "API integration"
+      "API integration",
     ],
   },
   {
@@ -432,13 +457,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["HTML", "CSS", "JavaScript"],
-    description: "We are looking for a Junior Web Developer to build and maintain responsive websites. You will work with senior developers to implement UI features, fix issues, and improve your frontend development skills.",
+    description:
+      "We are looking for a Junior Web Developer to build and maintain responsive websites. You will work with senior developers to implement UI features, fix issues, and improve your frontend development skills.",
     requirements: [
       "HTML knowledge",
       "CSS knowledge",
       "JavaScript fundamentals",
       "Responsive design",
-      "Good learning attitude"
+      "Good learning attitude",
     ],
   },
   {
@@ -449,13 +475,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["SQL", "Power BI", "Excel"],
-    description: "We are looking for a Data Analyst to transform business data into meaningful insights and reports. You will work with SQL, dashboards, spreadsheets, and visualization tools to help teams make better data-driven decisions.",
+    description:
+      "We are looking for a Data Analyst to transform business data into meaningful insights and reports. You will work with SQL, dashboards, spreadsheets, and visualization tools to help teams make better data-driven decisions.",
     requirements: [
       "Strong SQL knowledge",
       "Power BI experience",
       "Advanced Excel skills",
       "Data visualization understanding",
-      "Analytical thinking"
+      "Analytical thinking",
     ],
   },
   {
@@ -466,13 +493,14 @@ export const jobs = [
     jobType: "Internship",
     salary: "Rs. 75,000 - 95,000",
     skills: ["SQL", "Excel", "Power BI"],
-    description: "We are looking for a Junior Data Analyst to support data analysis tasks and reporting. You will work with spreadsheets, SQL queries, dashboards, and senior analysts to help identify useful business insights.",
+    description:
+      "We are looking for a Junior Data Analyst to support data analysis tasks and reporting. You will work with spreadsheets, SQL queries, dashboards, and senior analysts to help identify useful business insights.",
     requirements: [
       "SQL fundamentals",
       "Excel knowledge",
       "Basic Power BI",
       "Analytical skills",
-      "Attention to detail"
+      "Attention to detail",
     ],
   },
   {
@@ -483,13 +511,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["SQL", "Power BI", "Data Analysis"],
-    description: "We are looking for a Data Analyst specializing in SQL and Power BI. You will transform raw business data into dashboards, reports, and actionable insights that support informed decision-making.",
+    description:
+      "We are looking for a Data Analyst specializing in SQL and Power BI. You will transform raw business data into dashboards, reports, and actionable insights that support informed decision-making.",
     requirements: [
       "Strong SQL skills",
       "Power BI dashboards",
       "Data analysis",
       "Data visualization",
-      "Critical thinking"
+      "Critical thinking",
     ],
   },
   {
@@ -500,13 +529,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["SQL", "Excel", "Tableau"],
-    description: "We are looking for a Business Data Analyst to analyze business performance and provide actionable insights. You will work with SQL, Excel, Tableau, and business teams to identify trends and opportunities.",
+    description:
+      "We are looking for a Business Data Analyst to analyze business performance and provide actionable insights. You will work with SQL, Excel, Tableau, and business teams to identify trends and opportunities.",
     requirements: [
       "SQL knowledge",
       "Excel expertise",
       "Tableau experience",
       "Business analysis",
-      "Communication skills"
+      "Communication skills",
     ],
   },
   {
@@ -517,13 +547,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 75,000 - 95,000",
     skills: ["Python", "Pandas", "SQL"],
-    description: "We are looking for a Data Science Associate to support data science projects through analysis and data preparation. You will work with Python, Pandas, SQL, and statistical techniques to prepare data for modeling.",
+    description:
+      "We are looking for a Data Science Associate to support data science projects through analysis and data preparation. You will work with Python, Pandas, SQL, and statistical techniques to prepare data for modeling.",
     requirements: [
       "Python knowledge",
       "Pandas experience",
       "SQL fundamentals",
       "Data analysis skills",
-      "Basic statistics"
+      "Basic statistics",
     ],
   },
   {
@@ -534,13 +565,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 80,000 - 95,000",
     skills: ["Python", "Pandas", "Machine Learning"],
-    description: "We are looking for a Junior Data Scientist to work on data analysis and machine learning projects. You will prepare datasets, explore patterns, build basic models, and collaborate with experienced data scientists.",
+    description:
+      "We are looking for a Junior Data Scientist to work on data analysis and machine learning projects. You will prepare datasets, explore patterns, build basic models, and collaborate with experienced data scientists.",
     requirements: [
       "Python programming",
       "Pandas knowledge",
       "Machine learning basics",
       "Statistics fundamentals",
-      "Analytical thinking"
+      "Analytical thinking",
     ],
   },
   {
@@ -551,13 +583,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 70,000 - 90,000",
     skills: ["Python", "Machine Learning", "TensorFlow"],
-    description: "We are looking for a Machine Learning Engineer to develop and optimize machine learning models. You will work with datasets, model training, evaluation, and deployment while solving real-world business problems.",
+    description:
+      "We are looking for a Machine Learning Engineer to develop and optimize machine learning models. You will work with datasets, model training, evaluation, and deployment while solving real-world business problems.",
     requirements: [
       "Python expertise",
       "Machine learning knowledge",
       "TensorFlow experience",
       "Statistics knowledge",
-      "Model evaluation skills"
+      "Model evaluation skills",
     ],
   },
   {
@@ -568,13 +601,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 75,000 - 95,000",
     skills: ["Python", "PyTorch", "Machine Learning"],
-    description: "We are looking for an AI/ML Engineer to develop intelligent solutions using modern AI and machine learning techniques. You will train models, work with datasets, evaluate results, and integrate AI features into applications.",
+    description:
+      "We are looking for an AI/ML Engineer to develop intelligent solutions using modern AI and machine learning techniques. You will train models, work with datasets, evaluate results, and integrate AI features into applications.",
     requirements: [
       "Python programming",
       "PyTorch experience",
       "Machine learning knowledge",
       "Deep learning fundamentals",
-      "Problem-solving skills"
+      "Problem-solving skills",
     ],
   },
   {
@@ -585,13 +619,14 @@ export const jobs = [
     jobType: "Contract",
     salary: "Rs. 80,000 - 95,000",
     skills: ["Python", "Scikit-learn", "Pandas"],
-    description: "We are looking for a Junior Machine Learning Engineer to assist in developing machine learning models and data pipelines. You will work with Python, Pandas, Scikit-learn, and senior engineers on practical ML projects.",
+    description:
+      "We are looking for a Junior Machine Learning Engineer to assist in developing machine learning models and data pipelines. You will work with Python, Pandas, Scikit-learn, and senior engineers on practical ML projects.",
     requirements: [
       "Python knowledge",
       "Scikit-learn experience",
       "Pandas knowledge",
       "Machine learning basics",
-      "Analytical skills"
+      "Analytical skills",
     ],
   },
   {
@@ -602,13 +637,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 120,000 - 180,000",
     skills: ["Python", "Machine Learning", "TensorFlow"],
-    description: "We are looking for an AI Engineer to design and implement AI-powered solutions for modern applications. You will develop machine learning models, work with data, and help integrate intelligent features into production systems.",
+    description:
+      "We are looking for an AI Engineer to design and implement AI-powered solutions for modern applications. You will develop machine learning models, work with data, and help integrate intelligent features into production systems.",
     requirements: [
       "Strong Python skills",
       "Machine learning experience",
       "TensorFlow knowledge",
       "AI model development",
-      "Strong analytical skills"
+      "Strong analytical skills",
     ],
   },
   {
@@ -619,13 +655,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 130,000 - 200,000",
     skills: ["Figma", "Wireframing", "Prototyping"],
-    description: "We are looking for a UI/UX Designer to create intuitive and visually engaging digital experiences. You will work on wireframes, prototypes, user flows, and design systems while collaborating with product and development teams.",
+    description:
+      "We are looking for a UI/UX Designer to create intuitive and visually engaging digital experiences. You will work on wireframes, prototypes, user flows, and design systems while collaborating with product and development teams.",
     requirements: [
       "Strong Figma skills",
       "Wireframing experience",
       "Prototyping knowledge",
       "Understanding of UX principles",
-      "Strong visual design skills"
+      "Strong visual design skills",
     ],
   },
   {
@@ -636,13 +673,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 140,000 - 220,000",
     skills: ["Figma", "UX Research", "Prototyping"],
-    description: "We are looking for a Junior UI/UX Designer to support the design team in creating user-friendly digital experiences. You will assist with research, wireframes, prototypes, and visual design while learning professional design workflows.",
+    description:
+      "We are looking for a Junior UI/UX Designer to support the design team in creating user-friendly digital experiences. You will assist with research, wireframes, prototypes, and visual design while learning professional design workflows.",
     requirements: [
       "Figma knowledge",
       "UX research basics",
       "Prototyping skills",
       "Good design sense",
-      "Attention to detail"
+      "Attention to detail",
     ],
   },
   {
@@ -653,13 +691,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 150,000 - 240,000",
     skills: ["Figma", "Design Systems", "UI Design"],
-    description: "We are looking for a Product Designer to design product experiences from concept through implementation. You will work on user flows, design systems, prototypes, and interfaces while collaborating with product and engineering teams.",
+    description:
+      "We are looking for a Product Designer to design product experiences from concept through implementation. You will work on user flows, design systems, prototypes, and interfaces while collaborating with product and engineering teams.",
     requirements: [
       "Advanced Figma skills",
       "Design systems knowledge",
       "UI design experience",
       "Product thinking",
-      "Strong communication"
+      "Strong communication",
     ],
   },
   {
@@ -670,13 +709,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 160,000 - 250,000",
     skills: ["Figma", "User Research", "Wireframing"],
-    description: "We are looking for a UX Designer to create user-centered experiences through research and thoughtful design. You will conduct user research, create wireframes and prototypes, and collaborate with teams to improve product usability.",
+    description:
+      "We are looking for a UX Designer to create user-centered experiences through research and thoughtful design. You will conduct user research, create wireframes and prototypes, and collaborate with teams to improve product usability.",
     requirements: [
       "Figma experience",
       "User research knowledge",
       "Wireframing skills",
       "UX principles",
-      "Problem-solving ability"
+      "Problem-solving ability",
     ],
   },
   {
@@ -687,13 +727,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 125,000 - 190,000",
     skills: ["Docker", "Git", "CI/CD"],
-    description: "We are looking for a DevOps Engineer to improve deployment workflows and maintain reliable infrastructure. You will work with CI/CD pipelines, containers, monitoring, automation, and development teams to support scalable application delivery.",
+    description:
+      "We are looking for a DevOps Engineer to improve deployment workflows and maintain reliable infrastructure. You will work with CI/CD pipelines, containers, monitoring, automation, and development teams to support scalable application delivery.",
     requirements: [
       "Docker knowledge",
       "Git experience",
       "CI/CD pipelines",
       "Linux fundamentals",
-      "Automation mindset"
+      "Automation mindset",
     ],
   },
   {
@@ -704,13 +745,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 135,000 - 210,000",
     skills: ["Linux", "Docker", "CI/CD"],
-    description: "We are looking for a Junior DevOps Engineer to support deployment automation and infrastructure management. You will work with Linux, Docker, CI/CD pipelines, and monitoring tools under the guidance of experienced engineers.",
+    description:
+      "We are looking for a Junior DevOps Engineer to support deployment automation and infrastructure management. You will work with Linux, Docker, CI/CD pipelines, and monitoring tools under the guidance of experienced engineers.",
     requirements: [
       "Linux knowledge",
       "Docker fundamentals",
       "CI/CD basics",
       "Git knowledge",
-      "Troubleshooting skills"
+      "Troubleshooting skills",
     ],
   },
   {
@@ -721,98 +763,108 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 150,000 - 230,000",
     skills: ["AWS", "Linux", "Networking"],
-    description: "We are looking for a Cloud Support Engineer to support cloud infrastructure and maintain reliable services. You will troubleshoot cloud issues, monitor systems, and work with networking and Linux environments.",
+    description:
+      "We are looking for a Cloud Support Engineer to support cloud infrastructure and maintain reliable services. You will troubleshoot cloud issues, monitor systems, and work with networking and Linux environments.",
     requirements: [
       "AWS knowledge",
       "Linux administration",
       "Networking fundamentals",
       "Cloud concepts",
-      "Problem-solving skills"
+      "Problem-solving skills",
     ],
   },
   {
     id: 44,
-    title: "Cloud Engineer",
-    company: "Avanza Solutions",
-    location: "Johar Town, Lahore",
-    jobType: "Full Time",
-    salary: "Rs. 180,000 - 280,000",
-    skills: ["AWS", "Terraform", "Docker"],
-    description: "We are looking for a Cloud Engineer to design and manage scalable cloud infrastructure. You will work with AWS, Terraform, Docker, automation, and infrastructure-as-code to support reliable application environments.",
-    requirements: [
-      "AWS expertise",
-      "Terraform knowledge",
-      "Docker experience",
-      "Cloud architecture",
-      "Infrastructure automation"
-    ],
-  },
-  {
-    id: 45,
-    title: "Database Engineer",
-    company: "Devsinc",
-    location: "DHA Phase 6, Karachi",
-    jobType: "Full Time",
-    salary: "Rs. 200,000 - 320,000",
-    skills: ["SQL", "PostgreSQL", "Database Design"],
-    description: "We are looking for a Database Engineer to design, maintain, and optimize reliable database systems. You will work with queries, performance optimization, database architecture, backups, and security to support business applications.",
-    requirements: [
-      "Strong SQL skills",
-      "PostgreSQL experience",
-      "Database design knowledge",
-      "Query optimization",
-      "Data security awareness"
-    ],
-  },
-  {
-    id: 46,
-    title: "Junior Database Engineer",
-    company: "Confiz",
-    location: "Blue Area, Islamabad",
-    jobType: "Full Time",
-    salary: "Rs. 110,000 - 170,000",
-    skills: ["SQL", "MySQL", "Database Management"],
-    description: "We are looking for a Junior Database Engineer to support database development and maintenance. You will work with SQL queries, database structures, performance improvements, and experienced database engineers on production systems.",
-    requirements: [
-      "SQL fundamentals",
-      "MySQL knowledge",
-      "Database management",
-      "Basic query optimization",
-      "Attention to detail"
-    ],
-  },
-  {
-    id: 47,
-    title: "Database Administrator",
-    company: "NETSOL Technologies",
+    title: "Mobile App Developer",
+    company: "10Pearls",
     location: "Gulshan-e-Iqbal, Karachi",
     jobType: "Full Time",
-    salary: "Rs. 125,000 - 190,000",
-    skills: ["SQL Server", "Database Administration", "Backup"],
-    description: "We are looking for a Database Administrator to manage database systems, backups, performance, and availability. You will monitor database health, troubleshoot issues, and ensure data reliability and security.",
+    salary: "Rs. 140,000 - 220,000",
+    skills: ["Flutter", "Dart", "Firebase"],
+    description:
+      "We are looking for a Mobile App Developer to build modern and responsive mobile applications. You will work with Flutter, Dart, Firebase, APIs, and development teams to create smooth and reliable Android and iOS experiences.",
     requirements: [
-      "SQL Server knowledge",
-      "Database administration",
-      "Backup and recovery",
-      "Performance monitoring",
-      "Strong troubleshooting skills"
+      "Flutter development experience",
+      "Dart programming knowledge",
+      "Firebase experience",
+      "REST API integration",
+      "Mobile UI development",
     ],
   },
+
+  {
+    id: 45,
+    title: "Junior Mobile App Developer",
+    company: "Arbisoft",
+    location: "Johar Town, Lahore",
+    jobType: "Internship",
+    salary: "Rs. 40,000 - 48,000",
+    skills: ["Flutter", "Dart", "Git"],
+    description:
+      "We are looking for a Junior Mobile App Developer to assist in building and improving mobile applications. You will learn Flutter development, work with APIs, fix UI issues, and collaborate with experienced developers.",
+    requirements: [
+      "Basic Flutter knowledge",
+      "Dart fundamentals",
+      "Understanding of Git",
+      "Basic API integration",
+      "Problem-solving skills",
+    ],
+  },
+
+  {
+    id: 46,
+    title: "Agentic AI Developer",
+    company: "Systems Limited",
+    location: "DHA Phase 6, Karachi",
+    jobType: "Full Time",
+    salary: "Rs. 180,000 - 300,000",
+    skills: ["Python", "LangChain", "AI Agents"],
+    description:
+      "We are looking for an Agentic AI Developer to build intelligent AI agents and automation workflows. You will work with Python, LLMs, LangChain, tool calling, APIs, and multi-step AI systems to solve real-world business problems.",
+    requirements: [
+      "Strong Python knowledge",
+      "Understanding of LLMs",
+      "LangChain or similar frameworks",
+      "AI agent development",
+      "REST API integration",
+    ],
+  },
+
+  {
+    id: 47,
+    title: "Junior Graphic Designer",
+    company: "Creative Chaos",
+    location: "Blue Area, Islamabad",
+    jobType: "Part Time",
+    salary: "Rs. 35,000 - 45,000",
+    skills: ["Figma", "Photoshop", "Illustrator"],
+    description:
+      "We are looking for a Junior Graphic Designer to create engaging visual content for digital platforms. You will work on social media graphics, marketing materials, layouts, and creative designs while collaborating with the design team.",
+    requirements: [
+      "Figma knowledge",
+      "Adobe Photoshop skills",
+      "Adobe Illustrator knowledge",
+      "Basic design principles",
+      "Creative mindset",
+    ],
+  },
+
   {
     id: 48,
-    title: "QA Automation Engineer",
+    title: "UI/UX Graphic Designer",
     company: "Tkxel",
-    location: "G-11, Islamabad",
+    location: "Gulberg, Lahore",
     jobType: "Full Time",
-    salary: "Rs. 145,000 - 220,000",
-    skills: ["Selenium", "JavaScript", "API Testing"],
-    description: "We are looking for a QA Automation Engineer to develop automated tests and ensure software quality. You will work with Selenium, API testing, test automation frameworks, and development teams to identify and prevent defects.",
+    salary: "Rs. 120,000 - 190,000",
+    skills: ["Figma", "UI/UX Design", "Prototyping"],
+    description:
+      "We are looking for a UI/UX Graphic Designer to create clean and user-friendly digital experiences. You will design interfaces, create prototypes, develop visual concepts, and collaborate with developers to deliver polished products.",
     requirements: [
-      "Selenium experience",
-      "JavaScript knowledge",
-      "API testing",
-      "Automation testing",
-      "Attention to detail"
+      "Strong Figma skills",
+      "UI/UX design knowledge",
+      "Wireframing and prototyping",
+      "Visual design principles",
+      "Portfolio of design work",
     ],
   },
   {
@@ -823,13 +875,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 170,000 - 270,000",
     skills: ["Cybersecurity", "SIEM", "Network Security"],
-    description: "We are looking for a Cybersecurity Analyst to monitor security events and help protect systems from cyber threats. You will analyze alerts, investigate suspicious activity, and support security monitoring and incident response processes.",
+    description:
+      "We are looking for a Cybersecurity Analyst to monitor security events and help protect systems from cyber threats. You will analyze alerts, investigate suspicious activity, and support security monitoring and incident response processes.",
     requirements: [
       "Cybersecurity fundamentals",
       "SIEM knowledge",
       "Network security",
       "Threat analysis",
-      "Strong analytical skills"
+      "Strong analytical skills",
     ],
   },
   {
@@ -840,13 +893,14 @@ export const jobs = [
     jobType: "Full Time",
     salary: "Rs. 220,000 - 350,000",
     skills: ["Manual Testing", "Jira", "Test Cases"],
-    description: "We are looking for a Software QA Engineer to ensure software quality through systematic testing and defect tracking. You will create test cases, identify bugs, collaborate with developers, and help deliver reliable software products.",
+    description:
+      "We are looking for a Software QA Engineer to ensure software quality through systematic testing and defect tracking. You will create test cases, identify bugs, collaborate with developers, and help deliver reliable software products.",
     requirements: [
       "Manual testing experience",
       "Jira knowledge",
       "Test case creation",
       "Bug reporting",
-      "Strong attention to detail"
+      "Strong attention to detail",
     ],
   },
 ];
