@@ -37,7 +37,7 @@ const locationItems = [
 ];
 
 function AppDropDown({ type, onSelection }) {
-  
+  const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState(
     type === "location" ? "Location" : "Job Type"
   );
@@ -53,14 +53,18 @@ function AppDropDown({ type, onSelection }) {
 
   return (
     <Dropdown
+      open={open}
+      onOpenChange={setOpen}
+      trigger={["click"]}
       menu={{
-        items: items,
-        selectable: true, 
+        items,
+        selectable: true,
         onClick: handleClick,
       }}
-    > 
-      <Space className="w-full text-gray-400 py-3 px-2 whitespace-nowrap cursor-pointer hover:shadow-md hover:bg-gray-50">
-        {selected}
+    >
+      <Space className="w-full flex items-center text-gray-400 py-3 px-2 cursor-pointer">
+        <span>{selected}</span>
+
         <DownOutlined className="ml-auto" />
       </Space>
     </Dropdown>
