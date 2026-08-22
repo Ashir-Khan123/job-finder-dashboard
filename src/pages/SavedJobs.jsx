@@ -1,9 +1,6 @@
-import { FaArrowLeft } from "react-icons/fa6";
 import AppNavbar from "../components/Navbar.jsx";
 import { jobs } from "../data/jobs.js";
-import AppButton from "../components/Button.jsx";
 import { FiBookmark } from "react-icons/fi";
-import { GrSend } from "react-icons/gr";
 import AppFooter from "../components/Footer.jsx";
 import JobCardTwo from "../components/JobCardTwo.jsx";
 import { useState } from "react";

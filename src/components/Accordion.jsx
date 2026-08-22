@@ -1,6 +1,5 @@
 import { Collapse } from 'antd';
 
-
 const AppAccordion = ({job}) => {
 
 const items = [

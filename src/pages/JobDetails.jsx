@@ -28,7 +28,7 @@ function JobDetailsPage() {
           <div className="flex flex-col md:flex-row gap-4 md:items-center justify-between py-3">
             <div className="flex items-center">
               <FaArrowLeft />
-              <AppButton>Back to jobs</AppButton>
+              <AppButton to={'/jobs'} >Back to jobs</AppButton>
             </div>
             <div>
               <div className="flex justify-center items-center gap-3 ">
@@ -93,7 +93,7 @@ function JobDetailsPage() {
                 <h5 className="font-bold">Skills</h5>
                 <div className="flex gap-3 md:gap-5 items-center pt-3 flex-wrap">
                   {job.skills.map((skill) => (
-                    <p className="flex md:gap-4 text-[10px] font-semibold text-cyan-800 bg-cyan-100 w-fit p-1 px-2 md:px-3 rounded-xl">
+                    <p className="flex md:gap-4 text-[10px] font-semibold text-cyan-800 bg-cyan-100 w-fit p-1 px-2 md:px-3 rounded-xl" key={skill}>
                       {skill}
                     </p>
                   ))}

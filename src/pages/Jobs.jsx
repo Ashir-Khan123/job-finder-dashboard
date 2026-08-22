@@ -12,26 +12,18 @@ function JobsPage() {
   const [selectedJobLocation, setSelectedJobLocation] = useState("");
 
   const SearchValue = searchParams.get("search") || "";
-  const LocationValue = searchParams.get("location") || "";
 
-  const filteredJobs = jobs.filter((job) => {
-    const searchJob = job.title
-      .toLowerCase()
-      .includes(SearchValue.toLowerCase());
+const filteredJobs = jobs.filter((job) => {
 
-    const matchType = job.jobType
-      .toLowerCase()
-      .includes(selectedJobType.toLowerCase());
+  const searchJob = job.title.toLowerCase().includes(SearchValue.toLowerCase())
+  const matchType = job.jobType.toLowerCase().includes(selectedJobType.toLowerCase())
+  const matchLocation = job.location.toLowerCase().includes(selectedJobLocation.toLowerCase())
+    
+  return searchJob && matchType && matchLocation;
+});
 
-    const matchLocation = job.location
-      .toLowerCase()
-      .includes(LocationValue.toLowerCase());
+const displayedJobs = (SearchValue || selectedJobType || selectedJobLocation) ? filteredJobs : jobs.slice(0, 9);
 
-    return searchJob && matchType && matchLocation ;
-  });
-
-  const displayedJobs =
-    SearchValue || selectedJobType || LocationValue ? filteredJobs : jobs.slice(0, 9);
 
   return (
     <div>
@@ -39,7 +31,7 @@ function JobsPage() {
 
       <main>
         <section className="mt-8 md:mt-14 py-8">
-          <div className="flex items-center md:justify-center">
+          <div className="flex items-center md:justify-center md:text-center">
             <div className="p-4">
               <h2 className="text-4xl font-bold text-gray-700">Find Your Next Opportunity</h2>
               <p className="font-semibold text-sm py-6 text-gray-500">
@@ -47,7 +39,7 @@ function JobsPage() {
               </p>
             </div>
           </div>
-          <SearchBar showJobType={true} onJobTypeChange={setSelectedJobType} />
+          <SearchBar showJobType={true} onJobTypeChange={setSelectedJobType} onJobLocationChange={setSelectedJobLocation} />
         </section>
 
         <section className="px-5 py-1 bg-gray-50">

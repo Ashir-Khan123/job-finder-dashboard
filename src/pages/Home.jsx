@@ -23,7 +23,7 @@ function HomePage() {
               Explore thousand of opportunities from top companies and take the
               next step in your career
             </p>
-            <div className="md:pt-6 pt-2">
+            <div className="w-full md:pt-6 pt-2">
               <SearchBar />
             </div>
           </div>
@@ -32,8 +32,8 @@ function HomePage() {
         <section className="pt-16 px-6 lg:p-12 bg-gray-50">
           <div>
             <div className="flex justify-between items-center">
-              <h2 className="text-xl md:text-2xl font-bold">Featured Jobs</h2>
-              <div className="bg-transparent hover:text-cyan-600 md:bg-cyan-500 transition-all duration-300 ease-in-out hover:md:bg-cyan-600 text-xs hover:md:shadow-lg active:translate-y-0 text-cyan-500 font-semibold md:text-gray-100 py-1.5 px-1 rounded-sm text-center cursor-pointer flex items-center">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-800">Featured Jobs</h2>
+              <div className="bg-transparent hover:text-cyan-600 hover:text-shadow-2xs md:hover:text-white md:bg-cyan-500 transition-all duration-300 ease-in-out hover:md:bg-cyan-600 text-xs hover:md:shadow-lg active:translate-y-0 text-cyan-500 font-semibold md:text-gray-100 py-1.5 px-1 rounded-sm text-center cursor-pointer flex items-center">
                 <AppButton to={'/jobs'}>
                   View All Jobs
               </AppButton>
@@ -50,10 +50,10 @@ function HomePage() {
 
         <section className="p-4 md:p-8">
           <div className="flex flex-col gap-4">
-            <h2 className="text-center font-semibold text-4xl">
+            <h2 className="text-center text-gray-700 font-semibold text-4xl">
               Why Use Our Platform?
             </h2>
-            <p className="text-center text-sm lg:text-lg lg:max-w-2xl lg:mx-auto">
+            <p className="text-center text-sm lg:text-lg lg:max-w-2xl lg:mx-auto text-gray-600 font-medium">
               We make job searching simple, fast and effective. Our platform
               connects you with the right opprtunities and the right employers.
             </p>
@@ -64,7 +64,7 @@ function HomePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Fast & Easy Search</h3>
-                  <p className="text-sm">
+                  <p className="text-sm text-gray-700">
                     Find jobs that match your skills and preferences with
                     powerful search and filters.
                   </p>
@@ -76,9 +76,8 @@ function HomePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Save & Track jobs</h3>
-                  <p className="text-sm">
-                    Find jobs that match your skills and preferences with
-                    powerful search and filters.
+                  <p className="text-sm text-gray-700">
+                    Save your favorite jobs and easily keep track of the opportunities you want to apply for.
                   </p>
                 </div>
               </div>
@@ -88,9 +87,8 @@ function HomePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Secure & Reliable</h3>
-                  <p className="text-sm">
-                    Find jobs that match your skills and preferences with
-                    powerful search and filters.
+                  <p className="text-sm text-gray-700">
+                    Explore trusted job opportunities with a secure and reliable platform built for your career search.
                   </p>
                 </div>
               </div>

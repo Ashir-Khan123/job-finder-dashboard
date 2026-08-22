@@ -6,7 +6,7 @@ function AppButton({children , to , onClick}){
             <NavLink
               to={to}
               onClick={onClick}
-              className="py-2 px-2 cursor-pointer font-semibold text-sm whitespace-nowrap"
+              className="py-1 px-2 block w-full cursor-pointer font-semibold text-sm whitespace-nowrap"
             >
               {children}
             </NavLink>

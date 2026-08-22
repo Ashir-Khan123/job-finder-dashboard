@@ -11,8 +11,10 @@ function AppApplyMessage() {
     <>
       {contextHolder}
       <span onClick={success} className="font-bold">Apply Now</span>
+      
     </>
   );
 }
+
 
 export default AppApplyMessage;

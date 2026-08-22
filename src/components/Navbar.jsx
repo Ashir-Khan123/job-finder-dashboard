@@ -17,7 +17,7 @@ function AppNavbar() {
           </span>
         </div>
         <ul
-          className={`absolute top-full left-0 w-full bg-gray-50 flex-col items-start justify-center gap-8 p-5 text-lg py-8 md:p-2 font-semibold md:static  md:bg-transparent md:w-auto md:whitespace-nowrap md:gap-12 md:flex md:flex-row md:items-center text-md cursor-pointer ${
+          className={`absolute top-full left-0 w-full bg-gray-50 flex-col items-center justify-center gap-8 p-5 text-lg py-12 md:p-2 font-semibold md:static md:bg-transparent md:w-auto md:whitespace-nowrap md:gap-12 md:flex md:flex-row md:items-center text-md cursor-pointer text-gray-600 ${
             menu ? `flex` : `hidden`
           }`}
         >
@@ -37,7 +37,7 @@ function AppNavbar() {
           </li>
         </ul>
         <div>
-          <div className="hidden md:block bg-cyan-500 py-2.5 px-2 transition-all duration-300 ease-in-out hover:bg-cyan-600 hover:shadow-lg active:translate-y-0 text-white rounded-sm text-sm">
+          <div className="hidden md:block bg-cyan-500 py-1 px-2 transition-all duration-300 ease-in-out hover:bg-cyan-600 hover:shadow-lg active:translate-y-0 text-white rounded-sm text-sm">
             <AppButton to="/jobs">
                 Browse Jobs
             </AppButton>

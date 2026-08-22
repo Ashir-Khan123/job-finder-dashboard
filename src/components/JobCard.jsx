@@ -2,11 +2,7 @@ import { FiBookmark } from "react-icons/fi";
 import { GiTakeMyMoney } from "react-icons/gi";
 import { IoBriefcaseOutline, IoLocationOutline } from "react-icons/io5";
 import AppButton from "./Button.jsx";
-import {
-  isJobSaved,
-  saveJob,
-  removeSavedJob,
-} from "../utils/savedJobs.js";
+import { isJobSaved, saveJob, removeSavedJob } from "../utils/savedJobs.js";
 import { useState } from "react";
 
 function JobCard({ job }) {
@@ -75,7 +71,7 @@ function JobCard({ job }) {
       </div>
       
       <div className="bg-cyan-500 cursor-pointer text-gray-50 transition-all duration-300 ease-in-out hover:bg-cyan-600 hover:shadow-lg active:translate-y-0 py-1.5 rounded-sm text-center">
-        <AppButton to={`/job-details/${job.id}`}>view detail</AppButton>
+        <AppButton to={`/job-details/${job.id}` } >view detail</AppButton>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 
-const items = [
+const jobTypeItems = [
   {
     key: "1",
     label: "Full Time",
@@ -20,26 +20,51 @@ const items = [
     label: "Internship",
   },
 ];
-const AppDropDown = ({onSelection}) => {
-  const [jobType, setJobType] = useState("Job type");
+
+const locationItems = [
+  {
+    key: "1",
+    label: "Karachi",
+  },
+  {
+    key: "2",
+    label: "Lahore",
+  },
+  {
+    key: "3",
+    label: "Islamabad",
+  },
+];
+
+function AppDropDown({ type, onSelection }) {
+  
+  const [selected, setSelected] = useState(
+    type === "location" ? "Location" : "Job Type"
+  );
+
+  const items = type === "location" ? locationItems : jobTypeItems;
+
+  const handleClick = ({ key }) => {
+    const selectedItem = items.find((item) => item.key === key);
+
+    setSelected(selectedItem.label);
+    onSelection(selectedItem.label);
+  };
+
   return (
     <Dropdown
       menu={{
-        items,
-        selectable: true,
-        onClick: ({ itemData }) => {
-          setJobType(itemData.label),
-          onSelection(itemData.label)
-        }
-
-         
+        items: items,
+        selectable: true, 
+        onClick: handleClick,
       }}
-    >
-      <Space className="text-gray-500 py-3 px-2 whitespace-nowrap">
-        {jobType}
-        <DownOutlined className="pl-4 font-semibold" />
+    > 
+      <Space className="w-full text-gray-400 py-3 px-2 whitespace-nowrap cursor-pointer hover:shadow-md hover:bg-gray-50">
+        {selected}
+        <DownOutlined className="ml-auto" />
       </Space>
     </Dropdown>
   );
-};
+}
+
 export default AppDropDown;

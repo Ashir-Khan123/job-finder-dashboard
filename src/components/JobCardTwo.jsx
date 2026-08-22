@@ -25,7 +25,7 @@ function JobCardTwo({ job, deleteBtn }) {
         </div>
         <div className="flex gap-3 md:gap-5 items-center flex-wrap">
           {job.skills.map((skill) => (
-            <p className="flex md:gap-4 text-[10px] font-semibold text-cyan-800 bg-cyan-100 w-fit p-1 px-3 rounded-xl">
+            <p className="flex md:gap-4 text-[10px] font-semibold text-cyan-800 bg-cyan-100 w-fit p-1 px-3 rounded-xl" key={skill}>
               {skill}
             </p>
           ))}
