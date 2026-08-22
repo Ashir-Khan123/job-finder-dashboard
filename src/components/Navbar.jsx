@@ -49,9 +49,9 @@ function AppNavbar() {
             }}
           >
             {menu ? (
-              <LuX size={25} strokeWidth={2.5} />
+              <LuX size={30} strokeWidth={2.5} />
             ) : (
-              <LuMenu size={25} strokeWidth={2.5} />
+              <LuMenu size={30} strokeWidth={2.5} />
             )}
           </div>
         </div>
